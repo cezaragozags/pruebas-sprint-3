@@ -1,0 +1,76 @@
+<nav class="navbar navbar-dark bg-dark">
+  <div class="container-fluid align-right">
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="offcanvas"
+      data-bs-target="#MainNavbar"
+      aria-controls="MainNavbar"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </div>
+
+  <div
+    class="offcanvas offcanvas-start bg-dark"
+    tabindex="-1"
+    id="MainNavbar"
+    aria-labelledby="NavbarLabel"
+  >
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="NavbarLabel" style="color: white">
+        ElectronicArt
+      </h5>
+      <button
+        type="button"
+        class="btn-close btn-close-white"
+        data-bs-dismiss="offcanvas"
+        aria-label="Close"
+      ></button>
+    </div>
+    <div class="offcanvas-body">
+      <div class="btn-group" role="group" aria-label="Large button group">
+        <button
+          style="color: white"
+          type="button"
+          class="btn"
+          data-bs-toggle="button"
+        >
+          Store
+        </button>
+      </div>
+      <br />
+      <div class="btn-group" role="group" aria-label="Default button group">
+        <button
+          style="color: gray"
+          type="button"
+          class="btn"
+          data-bs-toggle="button"
+        >
+          Home
+        </button>
+      </div>
+      <br />
+      <div class="btn-group" role="group" aria-label="Small button group">
+        <button
+          style="color: white"
+          type="button"
+          class="btn"
+          data-bs-toggle="dropdown"
+        >
+          More
+        </button>
+        <ul class="dropdown-menu">
+          <li class="dropdown-item">
+                <i class="fas fa-shopping-cart"></i>
+          </li>
+          <li class="dropdown-item">
+            <i class="fas fa-user"></i>
+          </li>
+          <li><a class="dropdown-item" href="#">Support</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,20 @@
+@if (products.length > 0) {
+  <div style="width: 70%; margin: 0 auto">
+    <div class="card-group">
+      <div class="row d-flex">
+          @for (product of products; track product.id_product) {
+            @if (view === 'grid') { 
+              <div class="col-md-3 mb-3 d-flex">
+                <app-card [product]="product" [view]="view"></app-card>
+              </div>
+             }
+             @if (view === 'list') {
+              <div class="col-md-12 mb-3">
+                <app-card [product]="product" [view]="view"></app-card>
+              </div>
+              }
+          }
+      </div>
+    </div>
+  </div>
+  }
