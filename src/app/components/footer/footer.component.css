@@ -1,0 +1,36 @@
+.footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.opcion{
+    color: white;
+    text-align: left;
+    padding: 60px;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.footer-cierre{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-cierre a{
+    color: white;
+}
+
+p{
+    font-size: 15px;
+
+}
+
+a{
+    color: white;
+    align-items: center;
+}
